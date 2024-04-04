@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Nhà Thuốc Quỳnh Nhung</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<style>
+body {margin:0;}
+  
+.heading{
+  padding: 14px 16px;
+}
+
+/* COL */
+.container {
+  overflow: hidden;
+  text-align: center;
+}
+
+.container a {
+  float: left;
+  display: block;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  border-bottom: 3px solid transparent;
+}
+
+.container a:hover {
+  border-bottom: 3px solid green;
+}
+
+.container a.active {
+  border-bottom: 3px solid blue;
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-50 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+.col-75 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+.col-100 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/*responsive*/
+.row-1{
+  float: left;
+  width: 45%;
+  margin-top: 6px;
+}
+.row-2{
+  float: right;
+  width: 55%;
+}
+.row-3{
+  width: 100%;
+  margin-top: 6px;
+}
+
+/* side bar icon*/
+.sidebar {
+  height: 500px;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: darkgreen;
+  background-color: rgb(215, 212, 212);
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+</style>
+<body>
+  
+  <div class="heading">
+    <h2 style="color: blue; font-weight: bold; text-align: center;">TRẠNG THÁI NGƯỜI YÊU CẦU</h2>
+
+  </div>
+  <div class="row-3">
+    <div class="row-1">
+      <div class="sidebar">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-e84iO5BjU7-z-Kxd98HUDOmtX5yq38HfhQ&usqp=CAU" alt="username" width="100%" height="150px">
+        <a href="#menu"><i class="fa fa-fw fa-user"></i> Thông tin cá nhân</a>
+        <a href="#menu"><i class="fa fa-fw fa-shopping-cart"></i> Đơn hàng của tôi</a>
+        <a href="#menu"><i class="fa fa-fw fa-map-marker"></i> Quản lý sổ địa chỉ</a>
+        <a href="#menu"><i class="fa fa-fw fa-user-md"></i> Lịch hẹn tiêm chủng</a>
+        <a href="#menu"><i class="fa fa-fw fa-shopping-basket"></i> Đơn hàng tiêm chủng</a>
+        <a href="form.html"><i class="fa fa-fw fa-file-text-o"></i> Đơn thuốc của tôi</a>
+        <a href="index.html"><i class="fa fa-fw fa-sign-out"></i> Thoát</a>
+      </div>
+      <div class="row-2">
+        <div class="container">
+          <a class="active" href="#">TẤT CẢ</a>
+          <a class="col-50" href="#">ĐÃ DUYỆT</a>
+          <a class="col-75" href="#">HOÀN THÀNH</a>
+          <a class="col-100" href="#">HỦY</a>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+
+
+
+
+
+
+</body>
+</html>
