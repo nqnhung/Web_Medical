@@ -1,0 +1,29 @@
+{
+  "name": "hs_prescription_service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haudevops/hs_prescription_service.git"
+  },
+  "author": "Hau Tran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haudevops/hs_prescription_service/issues"
+  },
+  "homepage": "https://github.com/haudevops/hs_prescription_service#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.2.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.0",
+    "xhr2": "^0.2.1",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
